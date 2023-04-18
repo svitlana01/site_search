@@ -1,0 +1,108 @@
+
+
+#logo {
+    width: 100px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-right: 20px;
+}
+#search-form h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* стиль для заголовка "усіма цими словами" */
+#search-form p:nth-of-type(1) {
+    margin-bottom: 5px;
+  }
+  
+  /* стиль для текстового поля "усіма цими словами" */
+  #search-form input[name="as_q"] {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* стиль для заголовка "саме цим словом або фразою" */
+  #search-form p:nth-of-type(2) {
+    margin-bottom: 5px;
+  }
+  
+  /* стиль для текстового поля "саме цим словом або фразою" */
+  #search-form input[name="as_epq"] {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* стиль для заголовка "будь-яким із цих слів" */
+  #search-form p:nth-of-type(3) {
+    margin-bottom: 5px;
+  }
+  
+  /* стиль для текстового поля "будь-яким із цих слів" */
+  #search-form input[name="as_oq"] {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* стиль для заголовка "жодне з цих слів" */
+  #search-form p:nth-of-type(4) {
+    margin-bottom: 5px;
+  }
+  
+  /* стиль для текстового поля "жодне з цих слів" */
+  #search-form input[name="as_eq"] {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* стиль для кнопки "Пошук" */
+  #search-form button[type="submit"] {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* стиль для кнопки "Пошук" при наведенні курсора */
+  #search-form button[type="submit"]:hover {
+    background-color: #ccc;
+  }
+  #links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#links a {
+    margin: 0 10px;
+    font-size: 14px;
+}
